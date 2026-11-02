@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "own_client",
+  "version": "${version}",
+  "name": "OWN CLIENT",
+  "description": "Your Game. Your Rules. A performance-focused client-side Minecraft companion.",
+  "authors": ["OWN CLIENT Team"],
+  "contact": {
+    "sources": "https://example.invalid/own-client"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.ownclient.core.OwnClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
