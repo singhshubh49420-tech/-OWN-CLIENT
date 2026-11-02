@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "own_client",
+  "version": "1.0.0",
+  "name": "OWN CLIENT",
+  "description": "Your Game. Your Rules.",
+  "authors": ["OWN CLIENT Team"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.swordgamerz.client.OwnClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
